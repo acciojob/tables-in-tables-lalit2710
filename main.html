@@ -7,8 +7,95 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
-    </table>
+    <table style="width: 100%;height:100%" border="1px"; bordercolor = "black">
+      <tr class="grid-item">
+          <td class="flex-box">
+              <table style="width: 100%;padding-top:100px;padding-bottom:100px">
+                  <tr>
+                      <td>
+                          <table style="width:100%" border ="1px";bordercolor ="black">
+                              <tr>
+                                  <th class="grid-item" colspan="2">
+                                      Nested Table 2
+                                  </th>
+                              </tr>
+                              <tr class="grid-item">
+                                  <th class="grid-item">Column 1</th>
+                                  <th class="grid-item">Column 2</th>
+                              </tr>
+                              <tr align="center">
+                                  <td class="grid-item">abc</td>
+                                  <td class="grid-item">def</td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+              </table>
+          </td>
+          <td class="flex-item" id="tdwidth">
+              <table style="width:100%" id="pad">
+                  <tr>
+                      <td>
+                          <table style="width:100%" border ="1px";bordercolor ="black">
+                              <tr>
+                                  <th class="grid-item" colspan="2">
+                                      Nested Table 1
+                                  </th>
+                              </tr>
+                              <tr>
+                                  <td class="grid-item">
+                                      <ul>
+                                          <li>List item</li>
+                                          <li>List item</li>
+                                          <li>List item</li>
+                                      </ul>
+                                  </td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+              </table>
+          </td>
+      </tr>
+      <tr class="grid-item">
+          <td class="flex-box">
+              <table style="width: 100%;" id="pad">
+                  <tr>
+                      <td>
+                          <table style="width:100%;height:100%" border ="1px";bordercolor ="black">
+                          <tr>
+                              <th class="grid-item" colspan="2">
+                                  Nested Table 3
+                              </th>
+                          </tr>
+                          <tr class="grid-item" align="center">
+                              <td class="grid-item"><a href="">Nested Table</a></td>
+                              <td class="grid-item">Demo Continued</td>
+                          </tr>
+                          </table>
+                      </td>
+                  </tr>
+              </table>
+          </td>
+          <td>
+              <table style="width: 100%;" id="pad">
+                  <tr>
+                      <td>
+                          <table style="width: 100%;height:100%" border ="1px";bordercolor ="black">
+                              <tr>
+                                  <th class="grid-item" colspan="2">
+                                      Nested Table 4
+                                  </th>
+                              </tr>
+                              <tr align="center">
+                                  <td class="grid-item" style="background-color:black; color: white">HTML</td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+              </table>
+          </td>
+      </tr>
+  </table>
   </body>
 </html>
