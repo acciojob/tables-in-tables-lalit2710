@@ -1,25 +1,3 @@
-table{
-    
-    border: 2px solid rgba(0, 0, 0, 0.8);
-    border-color: black;
-
-}
-#pad{
-   padding-top: 75px ;
-   padding-bottom: 75px;
-
-}
-td{
-    text-align: center;
-    /* width: 50%; */
-}
-/* td witdh ID */
-#tdwidth{  
-    width: 50%;
-}
-.sty{
-    color: blue;
-}
 .grid-container {
     margin: 20px;
     display: grid;
